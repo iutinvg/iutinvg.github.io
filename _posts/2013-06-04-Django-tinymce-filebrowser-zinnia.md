@@ -10,9 +10,9 @@ using your media django media folder. It does not work out of the box.
 
 What to do:
 
-* install [zinnia](http://django-tinymce.readthedocs.org/en/latest/)
-* install [filebrowser](https://django-filebrowser.readthedocs.org/en/latest/)
-* install [django-tinymce](http://django-tinymce.readthedocs.org/en/latest/)
+* install [zinnia](http://docs.django-blog-zinnia.com/en/latest/getting-started/install.html)
+* install [filebrowser](https://django-filebrowser.readthedocs.org/en/latest/quickstart.html#installation)
+* install [django-tinymce](http://django-tinymce.readthedocs.org/en/latest/installation.html)
 
 After that zinnia will use tinymce, but filebrowser won't work to insert images. Look carefully at
 <http://docs.django-blog-zinnia.com/en/latest/getting-started/configuration.html#tinymce>
