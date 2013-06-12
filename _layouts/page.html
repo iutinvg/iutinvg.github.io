@@ -6,39 +6,44 @@
 	<meta name="viewport" content="width=device-width" />
 	<link type="text/plain" rel="author" href="humans.txt" />
 	<title>{{ page.title }}</title>
-	<link rel="stylesheet" href="/css/normalize.css" />
-	<link rel="stylesheet" href="/css/foundation.min.css" />
+	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/foundation/4.1.6/css/normalize.min.css" />
+	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/foundation/4.1.6/css/foundation.min.css" />
 	<link rel="stylesheet" href="/css/app.css" />
-	<script src="/js/vendor/custom.modernizr.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/foundation/4.1.6/js/vendor/custom.modernizr.min.js"></script>
 </head>
 <body>
+<<<<<<< HEAD
 	<header class="row header">
 		<div class="large-8 small-12 columns large-centered">
 			<h1><a href="/">Vyacheslav Iutin</a></h1>
 		</div>
 	</header>
+=======
+	<nav class="top-bar">
+		<ul class="title-area">
+			<!-- Title Area -->
+			<li class="name">
+				<h1><a href="/">Vyacheslav Iutin</a></h1>
+			</li>
+			<li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+		</ul>
+		<section class="top-bar-section">
+			<ul class="right">
+				<li class="divider"></li>
+				<li><a href="/blog.html">Blog</a></li>
+			</ul>
+		</section>
+	</nav>
+>>>>>>> ee10ec69f6e3db45b9b53f24ea779e584fadca0f
 	<section class="row">
 		{{ content }}
 	</section>
 	<script>
 	document.write('<script src=' +
-	('__proto__' in {} ? '/js/vendor/zepto' : '/js/vendor/jquery') +
+	('__proto__' in {} ? '//cdnjs.cloudflare.com/ajax/libs/foundation/4.1.6/js/vendor/zepto.min' : '//cdnjs.cloudflare.com/ajax/libs/foundation/4.1.6/js/vendor/jquery.min') +
 	'.js><\/script>')
 	</script>
-	<script src="/js/foundation/foundation.js"></script>
-	<script src="/js/foundation/foundation.alerts.js"></script>
-	<script src="/js/foundation/foundation.clearing.js"></script>
-	<script src="/js/foundation/foundation.cookie.js"></script>
-	<script src="/js/foundation/foundation.dropdown.js"></script>
-	<script src="/js/foundation/foundation.forms.js"></script>
-	<script src="/js/foundation/foundation.joyride.js"></script>
-	<script src="/js/foundation/foundation.magellan.js"></script>
-	<script src="/js/foundation/foundation.orbit.js"></script>
-	<script src="/js/foundation/foundation.placeholder.js"></script>
-	<script src="/js/foundation/foundation.reveal.js"></script>
-	<script src="/js/foundation/foundation.section.js"></script>
-	<script src="/js/foundation/foundation.tooltips.js"></script>
-	<script src="/js/foundation/foundation.topbar.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/foundation/4.1.6/js/foundation.min.js"></script>
 	<script>
 	$(document).foundation();
 	</script>
