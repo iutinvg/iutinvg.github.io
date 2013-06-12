@@ -8,14 +8,20 @@ title: Vyacheslav Iutin
 	<p>
 		Vyacheslav Iutin, entrepreneur and software development engineer.
 		Have been working in this area since 2002.
-		I'm co-owner of <a href="http://is2monitor.com">is2monitor.com</a>.
 	</p>
 	<p>
-		In the past I was co-founder at <a href="http://whirix.com">Whirix</a> sofware development company.
+		In the past I was co-founder at Whirix sofware development company and owner of is2monitor.com project.
 	</p>
 	<p>
 		My favourite areas are web and mobile development.
 	<p>
+
+	<h2>Blog</h2>
+	<ul class="no-bullet">
+		{% for post in site.posts %}
+		<li>{{ post.date | date: "%B %e, %Y" }} <a href="{{ post.url }}">{{ post.title }}</a></li>
+		{% endfor %}
+	</ul>
 </div>
 
 <!--
