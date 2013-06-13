@@ -5,9 +5,9 @@ title: Redmine vs Trac
 
 Yeah, yet another article regarding this silent battle and why I choose Trac.
 
-One of the main argument in Redmine's favour is multiproject support. Trac doesn't support it.
+One of the main argument in Redmine's favour is a multiproject support. Trac doesn't support it.
 That's why my initial decision was to use Redmine.
-But wait a second... What is *multiproject support*? And why it could be necessary?
+But wait a second... What is a *multiproject support*? And why it could be necessary?
 
 Different project involves:
 
