@@ -12,11 +12,55 @@
 	<script src="//cdnjs.cloudflare.com/ajax/libs/foundation/4.1.6/js/vendor/custom.modernizr.min.js"></script>
 </head>
 <body>
-	<header class="row header">
-		<div class="large-8 small-12 columns large-centered">
-			<h1><a href="/">Vyacheslav Iutin</a></h1>
-		</div>
-	</header>
+
+
+<nav class="top-bar">
+  <ul class="title-area">
+    <!-- Title Area -->
+    <li class="name">
+      <h1><a href="/">Seven Crayons</a></h1>
+    </li>
+    <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+    <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+  </ul>
+
+  <section class="top-bar-section">
+
+    <!-- Right Nav Section -->
+    <ul class="right">
+      <li class="divider hide-for-small"></li>
+      <li><a href="/blog.html">Weblog</a></li>
+      <li class="divider"></li>
+      <li class="has-dropdown"><a href="#">Open Source</a>
+        <ul class="dropdown">
+          <li><a href="#">ZZLib</a></li>
+          <li><a href="#">Compass</a></li>
+        </ul>
+      </li>
+      <li class="divider"></li>
+      <li class="has-dropdown"><a href="#">Projects</a>
+        <ul class="dropdown">
+          <li><a href="#">ZZLib</a></li>
+          <li><a href="#">Compass</a></li>
+        </ul>
+      </li>
+      <li class="divider"></li>
+      <li class="has-form">
+        <form>
+          <div class="row collapse">
+            <div class="small-8 columns">
+              <input type="text">
+            </div>
+            <div class="small-4 columns">
+              <a href="#" class="alert button">Search</a>
+            </div>
+          </div>
+        </form>
+      </li>
+    </ul>
+  </section>
+</nav>
+
 	<section class="row">
 		{{ content }}
 	</section>
