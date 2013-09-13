@@ -1,10 +1,10 @@
 ---
-layout: page
+layout: layout
 title: SevenCrayons
 ---
 
 <div class="large-8 small-12 columns large-centered">
-	<h2>About Me</h2>
+	<h1>About Me</h1>
 	<p>
 		Vyacheslav Iutin, entrepreneur and software development engineer.
 		Have been working in this area since 2002.
@@ -15,11 +15,4 @@ title: SevenCrayons
 	<p>
 		My favourite areas are web and mobile development.
 	<p>
-
-	<h2>Blog</h2>
-	<ul class="no-bullet">
-		{% for post in site.posts %}
-		<li>{{ post.date | date: "%B %e, %Y" }} <a href="{{ post.url }}">{{ post.title }}</a></li>
-		{% endfor %}
-	</ul>
 </div>

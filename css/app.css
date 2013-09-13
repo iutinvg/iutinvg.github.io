@@ -1,9 +1,49 @@
+body { font-family: 'Bitter', serif; color: #000; }
+header {
+    padding: 25px 0;
+    border-bottom: 1px solid #e5e5e5;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: inherit;
+}
+.menu {
+    margin: 0;
+    line-height: 50px;
+    font-size: 14px;
+    text-align: center;
+    text-transform: uppercase;
+    float: right;
+}
+.menu li {
+    margin: 0 5px;
+    padding: 0 5px;
+}
+.logo {
+    background: url('../img/sevencrayons-logo.png');
+    height: 50px;
+    width: 50px;
+    text-indent: -10000px;
+    overflow: hidden;
+    display: block;
+}
+
+@media only screen and (max-width: 767px) {
+    .logo { margin: 0 auto; }
+    .menu { float: none; }
+    .menu li { float: none; display: inline-block; }
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+a:hover, a:focus {
+    color: #666;
+    text-decoration: none;
+}
 .date {
 	font-style: italic;
 }
 ul {
 	list-style-position: inside;
-}
-.header {
-	text-align: center;
 }
