@@ -58,13 +58,15 @@ ul {
 .image-top-contacts {
     background-image: url(../img/contacts.jpg);
 }
-
+.content-container {
+    padding: 100px 0;
+}
 footer {
     border-top: 1px solid rgba(0, 0, 0, 0.1);
-    padding: 40px 0 35px;
+    padding: 45px 0 25px;
 }
 .copyright {
-    font-size: 0.9375em;
+    font-size: 0.9em;
 }
 .footer-contacts {
     margin: 0 0 10px;
