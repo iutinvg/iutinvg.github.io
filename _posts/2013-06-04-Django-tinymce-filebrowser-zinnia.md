@@ -1,6 +1,6 @@
 ---
 layout: post
-title: django-tinymce + django-filebrowser + django-blog-zinnia
+title: django-tinymce, django-filebrowser, django-blog-zinnia
 ---
 
 How to make django-tinymce to use django-filebrowser for django-blog-zinnia posts.
