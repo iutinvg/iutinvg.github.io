@@ -9,7 +9,7 @@ One of the main argument in Redmine's favour is a multiproject support. Trac doe
 That's why my initial decision was to use Redmine.
 But wait a second... What is a *multiproject support*? And why it could be necessary?
 
-Different project involves:
+Different projects involve:
 
 * different people
 * different repository
