@@ -36,12 +36,6 @@ ul {
     display: inline-block;
 }
 
-@media only screen and (max-width: 767px) {
-    .logo { margin: 0 auto; display: block; }
-    .menu { float: none; }
-    .menu li { float: none; display: inline-block; }
-}
-
 /* All about links */
 a { color: #666; text-decoration: underline; }
 a:hover, a:focus { color: #444; }
@@ -59,6 +53,14 @@ a:hover, a:focus { color: #444; }
 }
 .content-container {
     padding: 100px 0;
+}
+
+@media only screen and (max-width: 767px) {
+    .logo { margin: 0 auto; display: block; }
+    .menu { float: none; }
+    .menu li { float: none; display: inline-block; }
+    .content-container { padding: 50px 0; }
+    .image-top { height: 200px; }
 }
 
 /* Contacts page */
