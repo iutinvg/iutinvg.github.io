@@ -12,8 +12,12 @@ a:hover, a:focus {
     text-decoration: none;
 }
 
-a:hover.design-portfolio, a:focus.design-portfolio {
+a.design-portfolio {
     color: #fba87b;
+}
+
+a:hover.design-portfolio, a:focus.design-portfolio {
+    color: #fcb289;
 }
 
 strong {
@@ -198,6 +202,10 @@ footer {
         padding-right: 80px;
     }
 
+    .lead-row {
+        border-bottom: none;
+    }
+
     .quote {
         font-size: 40px;
     }
@@ -235,10 +243,6 @@ footer {
         margin-top: -32px;
         padding-right: 49px;
         letter-spacing: -1px;
-    }
-
-    .lead-row {
-        border-bottom: none;
     }
 
     .lead-row p {
