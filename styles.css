@@ -204,6 +204,14 @@ footer {
         height: 100px;
     }
 
+    .header img {
+        top: -19px;
+        left: 0;
+        width: 128px;
+        height: 148px;
+        z-index: -1;
+    }
+
     .company-name {
         font-size: 45px;
         line-height: 60px;
