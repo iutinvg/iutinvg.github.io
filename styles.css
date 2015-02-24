@@ -1,0 +1,241 @@
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 300;
+}
+
+a {
+    color: black;
+}
+
+a:hover, a:focus {
+    color: #96a341;
+    text-decoration: none;
+}
+
+a:hover.design-portfolio, a:focus.design-portfolio {
+    color: #fba87b;
+}
+
+strong {
+    font-weight: 400;
+}
+
+.header {
+    padding: 50px 0 0;
+    height: 250px;
+    position: relative;
+}
+
+.header img {
+    position: absolute;
+    top: -43px;
+    left: -101px;
+    width: 303px;
+    height: 351px;
+}
+
+.company-name {
+    font-family: 'Sacramento', cursive;
+    font-size: 72px;
+    text-align: right;
+    /*background: red;*/
+    /*margin-top: -10px;*/
+}
+
+.company-slogan {
+    font-size: 24px;
+    margin-top: -48px;
+    padding-right: 97px;
+    text-align: right;
+    letter-spacing: -1.5px;
+}
+
+.nav {
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 22px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    line-height: 60px;
+}
+
+.lead-row {
+    border-bottom: 1px solid black;
+}
+
+.lead-row p {
+    font-size: 30px;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.services {
+    padding-top: 100px;
+    font-size: 24px;
+}
+
+.services h2 {
+    font-weight: 400;
+    padding: 50px 0;
+}
+
+.services .btn {
+    border-radius: 0;
+    background: #fba87b;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 300;
+    margin: 50px 0;
+    line-height: 70px;
+    padding: 0;
+}
+
+.services a:hover.btn {
+    background: #fcb289;
+}
+
+.services .btn-development {
+    background: #96a341;
+}
+
+.services a:hover.btn-development {
+    background: #a3b147;
+}
+
+footer {
+    margin: 240px 0;
+}
+
+.quote {
+    font-family: 'Sacramento', cursive;
+    font-size: 48px;
+}
+
+.social {
+    padding-top: 80px;
+}
+
+.social ul {
+    margin: 0;
+    font-size: 0;
+}
+
+.social li {
+    width: 16.6%;
+    height: 54px;
+    padding: 0;
+}
+
+.social a {
+    width: 100%;
+    height: 100%;
+    display: block;
+    text-indent: -10000px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.social a.email {
+    background-image: url('iconmonstr-email-9-icon.svg');
+}
+
+.social a.github {
+    background-image: url('iconmonstr-github-icon.svg');
+}
+
+.social a.linkedin {
+    background-image: url('iconmonstr-linkedin-4-icon.svg');
+}
+
+.social a.twitter {
+    background-image: url('iconmonstr-twitter-4-icon.svg');
+}
+
+.social a.stack {
+    background-image: url('iconmonstr-stackoverflow-4-icon.svg');
+}
+
+.social a.skype {
+    background-image: url('iconmonstr-skype-4-icon.svg');
+}
+
+
+@media(max-width: 768px) {
+    .header {
+        padding: 20px 0 15px;
+        height: auto;
+    }
+
+    .nav {
+        border-bottom: none;
+    }
+
+    .nav div {
+        border-bottom: 1px solid black;
+    }
+
+    .company-name {
+        text-align: center;
+    }
+
+    .company-slogan {
+        text-align: center;
+        padding-right: 80px;
+    }
+
+    .quote {
+        font-size: 40px;
+    }
+
+    footer {
+        margin: 85px 0;
+    }
+
+    .social {
+        padding-top: 20px;
+    }
+}
+
+@media(max-width: 420px) {
+    .header {
+        padding: 20px 0;
+        height: 100px;
+    }
+
+    .company-name {
+        font-size: 45px;
+        line-height: 60px;
+        margin: 0;
+    }
+
+    .company-slogan {
+        font-size: 15px;
+        margin-top: -32px;
+        padding-right: 49px;
+        letter-spacing: -1px;
+    }
+
+    .lead-row {
+        border-bottom: none;
+    }
+
+    .lead-row p {
+        font-size: 24px;
+        text-align: left;
+        padding: 20px 0;
+    }
+
+    .quote {
+        font-size: 24px;
+    }
+
+    footer {
+        margin: 50px 0;
+    }
+
+    .social {
+        padding-top: 20px;
+    }
+}
