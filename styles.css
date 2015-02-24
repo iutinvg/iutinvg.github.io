@@ -32,6 +32,7 @@ strong {
     left: -101px;
     width: 303px;
     height: 351px;
+    z-index: -1;
 }
 
 .company-name {
@@ -161,11 +162,23 @@ footer {
     background-image: url('iconmonstr-skype-4-icon.svg');
 }
 
+@media(max-width: 992px) {
+    .header img {
+        left: -25px;
+    }
+}
 
 @media(max-width: 768px) {
     .header {
         padding: 20px 0 15px;
         height: auto;
+    }
+
+    .header img {
+        top: -16px;
+        left: 0px;
+        width: 172px;
+        height: 200px;
     }
 
     .nav {
@@ -209,7 +222,6 @@ footer {
         left: 0;
         width: 128px;
         height: 148px;
-        z-index: -1;
     }
 
     .company-name {
