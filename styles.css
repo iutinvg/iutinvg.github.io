@@ -75,6 +75,15 @@ strong {
     padding: 50px 0;
 }
 
+.lead-design p {
+    text-align: left;
+    margin: 0;
+}
+
+.lead-design .text-center {
+    text-align: center;
+}
+
 .services {
     padding-top: 100px;
     font-size: 24px;
@@ -170,6 +179,10 @@ footer {
     .header img {
         left: -25px;
     }
+
+    .lead-design p {
+        text-align: center;
+    }
 }
 
 @media(max-width: 768px) {
@@ -247,7 +260,6 @@ footer {
 
     .lead-row p {
         font-size: 24px;
-        text-align: left;
         padding: 20px 0;
     }
 
