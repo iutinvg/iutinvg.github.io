@@ -7,17 +7,15 @@ a {
     color: black;
 }
 
-a:hover, a:focus {
+a:hover, a:focus, a.active {
     color: #96a341;
     text-decoration: none;
 }
 
-a.design-portfolio {
+.design-portfolio a:hover,
+.design-portfolio a:focus,
+.design-portfolio a.active {
     color: #fba87b;
-}
-
-a:hover.design-portfolio, a:focus.design-portfolio {
-    color: #fcb289;
 }
 
 strong {
@@ -37,6 +35,21 @@ strong {
     width: 303px;
     height: 351px;
     z-index: -1;
+}
+
+.header a {
+    color: black;
+}
+
+.header .home {
+    position: absolute;
+    /*background: red;*/
+    height: 250px;
+    width: 250px;
+    top: -50px;
+    left: -90px;
+    text-indent: -10000px;
+    display: block;
 }
 
 .company-name {
@@ -191,10 +204,6 @@ footer {
 }
 
 @media(max-width: 992px) {
-    .header img {
-        left: -25px;
-    }
-
     .lead-design p {
         text-align: center;
     }
@@ -208,7 +217,7 @@ footer {
 
     .header img {
         top: -16px;
-        left: 0px;
+        left: 0;
         width: 172px;
         height: 200px;
     }
