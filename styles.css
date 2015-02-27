@@ -94,7 +94,7 @@ strong {
 }
 
 .lead-design {
-    margin-bottom: 85px;
+    margin-bottom: 50px;
 }
 
 .lead-design p {
@@ -230,6 +230,13 @@ footer {
 }
 
 /*medium*/
+@media(max-width: 1200px) {
+    .lead-design {
+        margin-bottom: 0;
+    }
+}
+
+/*small*/
 @media(max-width: 992px) {
     .lead-design p {
         text-align: center;
