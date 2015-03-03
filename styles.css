@@ -93,6 +93,10 @@ strong {
     padding: 50px 0;
 }
 
+.lead-row p.fix {
+    padding: 30px 0;
+}
+
 .lead-design {
     margin-bottom: 50px;
 }
