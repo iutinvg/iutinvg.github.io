@@ -114,11 +114,27 @@ strong {
     margin-top: 30px;
 }
 
-.sample {
+.samples a {
     border: 1px solid black;
     width: 100%;
+    height: 100%;
     border-radius: 0;
     padding: 20px;
+    display: block;
+}
+
+.samples img {
+    width: 100%;
+    height: 100%;
+    -webkit-transition: all 0.5s ease;
+       -moz-transition: all 0.5s ease;
+         -o-transition: all 0.5s ease;
+        -ms-transition: all 0.5s ease;
+            transition: all 0.5s ease;
+}
+
+.samples img:hover {
+    opacity: 0.6;
 }
 
 .blog {
@@ -355,4 +371,18 @@ footer {
     .social {
         padding-top: 20px;
     }
+}
+
+/* twitter bootstrap modifications */
+.modal-header {
+    border: none;
+}
+
+a:focus {
+    outline: none;
+}
+
+.carousel-control.right,
+.carousel-control.left {
+    background-image: none;
 }
