@@ -386,3 +386,6 @@ a:focus {
 .carousel-control.left {
     background-image: none;
 }
+.carousel-indicators li {
+    box-shadow: 0 0 5px black;
+}
