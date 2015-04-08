@@ -12,8 +12,27 @@
 </header>
 
 <nav class="row nav">
+  {% if page.active == "home" %}
   <div class="col-sm-3"><a class="active" href="{{ site.baseurl }}/">Home</a></div>
+  {% else %}
+  <div class="col-sm-3"><a href="{{ site.baseurl }}/">Home</a></div>
+  {% endif %}
+
+  {% if page.active == "development" %}
+  <div class="col-sm-3"><a class="active" href="#">Development</a></div>
+  {% else %}
   <div class="col-sm-3"><a href="#">Development</a></div>
+  {% endif %}
+
+  {% if page.active == "design" %}
+  <div class="col-sm-3 design-portfolio"><a class="active" href="{{ site.baseurl }}/design.html">Design</a></div>
+  {% else %}
   <div class="col-sm-3 design-portfolio"><a href="{{ site.baseurl }}/design.html">Design</a></div>
+  {% endif %}
+
+  {% if page.active == "blog" %}
+  <div class="col-sm-3"><a class="active" href="{{ site.baseurl }}/blog.html">Blog</a></div>
+  {% else %}
   <div class="col-sm-3"><a href="{{ site.baseurl }}/blog.html">Blog</a></div>
+  {% endif %}
 </nav>
