@@ -1,6 +1,7 @@
-docs
 _site
+.sass-cache
 iutinvg.com.sublime-workspace
 .DS_Store
-tmp
-foundation.css
+Vagrantfile
+.vagrant/
+really_old

@@ -1,0 +1,15 @@
+# Site settings
+title: Software Development, Web-design, Mobile-design
+email: iutinvg@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+    Seven Crayons</strong> is a software development company
+    founded by Viacheslav Iutin, entrepreneur and software
+    development engineer with more than 10 years
+    experience.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://sevencrayons.com" # the base hostname & protocol for your site
+twitter_username: iutinvg
+github_username:  iutinvg
+
+# Build settings
+markdown: kramdown

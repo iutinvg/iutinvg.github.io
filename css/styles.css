@@ -226,27 +226,27 @@ footer {
 }
 
 .social a.email {
-    background-image: url('iconmonstr-email-9-icon.svg');
+    background-image: url('../img/iconmonstr-email-9-icon.svg');
 }
 
 .social a.github {
-    background-image: url('iconmonstr-github-icon.svg');
+    background-image: url('../img/iconmonstr-github-icon.svg');
 }
 
 .social a.linkedin {
-    background-image: url('iconmonstr-linkedin-4-icon.svg');
+    background-image: url('../img/iconmonstr-linkedin-4-icon.svg');
 }
 
 .social a.twitter {
-    background-image: url('iconmonstr-twitter-4-icon.svg');
+    background-image: url('../img/iconmonstr-twitter-4-icon.svg');
 }
 
 .social a.stack {
-    background-image: url('iconmonstr-stackoverflow-4-icon.svg');
+    background-image: url('../img/iconmonstr-stackoverflow-4-icon.svg');
 }
 
 .social a.skype {
-    background-image: url('iconmonstr-skype-4-icon.svg');
+    background-image: url('../img/iconmonstr-skype-4-icon.svg');
 }
 
 /*medium*/
