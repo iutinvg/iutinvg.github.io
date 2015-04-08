@@ -13,3 +13,5 @@ github_username:  iutinvg
 
 # Build settings
 markdown: kramdown
+
+exclude: [Vagrantfile, iutinvg.com.sublime-project]
