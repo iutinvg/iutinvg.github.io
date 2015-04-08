@@ -3,5 +3,4 @@ _site
 iutinvg.com.sublime-workspace
 .DS_Store
 Vagrantfile
-.vagrant/
-really_old
+.vagrant
