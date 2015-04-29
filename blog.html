@@ -5,25 +5,20 @@ active: blog
 
 <section class="row blog">
   <div class="col-sm-4 col-sm-push-8 toc">
+    {% for post in site.posts %}
     <p>
-      January 7, 2015<br>
-      <a href="#lemon">Lemon drops biscuit pie</a>
+      {{ post.date | date: "%B %d, %Y" }}<br>
+      <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
     </p>
-    <p>Fabruary 7, 2015<br><a href="#">Lemon drops biscuit pie</a></p>
-    <p>March 7, 2015<br><a href="#">Lemon drops biscuit pie</a></p>
-    <p>April 7, 2015<br><a href="#">Marzipan halvah muffin brownie toffee pie drops biscuit pie cake wafer bear</a></p>
-    <p>December 27, 2015<br><a href="#">Lemon drops biscuit pie</a></p>
-    <p>June 7, 2015<br><a href="#">Lemon drops biscuit pie</a></p>
-    <p>May 7, 2015<br><a href="#">Lemon drops biscuit pie</a></p>
+    {% endfor %}
   </div>
   <div class="col-sm-8 col-sm-pull-4">
     <div class="article">
-      <h2><a name="lemon"></a>Some header</h2>
-      <p>January 17, 2015</p>
-      <p>Danish pastry cake tiramisu gummies. Ice cream I love jujubes gingerbread lemon drops sweet roll I love pie. Lemon drops chupa chups marshmallow ice cream biscuit croissant jelly. Chocolate bar gummies I love gummies lemon drops brownie cotton candy chupa chups. Chocolate bar powder muffin muffin cake topping cupcake bonbon sweet roll. Jujubes icing gingerbread cookie jelly-o. Cheesecake bonbon powder toffee sweet roll cake oat cake. Bonbon dragée I love caramels I love. Sesame snaps cookie carrot cake tootsie roll tootsie roll. Gummi bears halvah powder chupa chups I love. I love wafer gingerbread jujubes caramels candy tiramisu topping dessert. Biscuit jujubes toffee donut cookie I love caramels carrot cake.
-      </p>
-      <p>Tart I love sweet liquorice chocolate dessert I love. Macaroon powder marzipan carrot cake fruitcake marzipan danish. Donut jelly beans toffee candy canes marshmallow. Jelly marshmallow sweet. Bear claw ice cream tootsie roll. Sugar plum halvah oat cake icing chocolate bar. Pastry pastry cupcake topping cupcake macaroon powder I love pudding. Marzipan halvah muffin brownie toffee pie lollipop chocolate bar cheesecake. Topping sugar plum dessert I love. Lemon drops gummi bears dessert marzipan. Candy I love jujubes. Lemon drops biscuit pie cake wafer bear claw icing jujubes. Liquorice jelly sesame snaps donut tiramisu candy canes pie pastry donut. Biscuit jelly beans cupcake cotton candy cupcake bear claw wafer jujubes.
-      </p>
+      <h2><a href="{{ post.url | prepend: site.baseurl }}"></a>{{ site.posts[0].title }}</h2>
+      <p>{{ site.posts[0].date | date: "%B %d, %Y" }}</p>
+
+      {{site.posts[0].content}}
+
     </div>
   </div>
 </section>
