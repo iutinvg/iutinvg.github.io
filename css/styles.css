@@ -137,6 +137,18 @@ strong {
     opacity: 0.6;
 }
 
+.dev-samples img {
+    width: 100%;
+    height: auto;
+    border: 1px solid black;
+    padding: 20px;
+}
+
+.dev-samples .row {
+    border-bottom: 1px solid black;
+    padding: 30px 0;
+}
+
 .blog {
     margin-top: 50px;
 }
@@ -304,6 +316,10 @@ footer {
 
     .samples div {
         margin-top: 15px;
+    }
+
+    .dev-samples img {
+        border: none;
     }
 
     .article {
