@@ -17,6 +17,10 @@ a:hover, a:focus, a.active {
     text-decoration: none;
 }
 
+.container {
+    max-width: 730px;
+}
+
 .design-portfolio a:hover,
 .design-portfolio a:focus,
 .design-portfolio a.active {
