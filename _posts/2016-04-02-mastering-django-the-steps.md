@@ -9,7 +9,7 @@ you are about to follow one of the main principles of the pros: "master your too
 which is a journey with an indefinite destination.
 
 Unsurprisingly, the first steps are the most complicated because the choice is
-too wide and probablity to waste a lot of time sorting out garbage is high.
+too wide and probability to waste a lot of time sorting out garbage is high.
 
 This article is mostly about books. There are also a couple of tips which could
 be useful. But the primary objective is get a list of really good books which worked
@@ -38,7 +38,7 @@ on at the moment as you get better with these awesome tools.
 **Python in Practice, by Mark Summerfield**: what an amazing book! This is why I love
 this book: it's quite short and full of deep enough explanations of the programming
 technics on the whole. The author describes and compares the design patterns as deep as
-it's really necessery. Neiher too shallow to be misterious, nor too profoundly to be boring.
+it's really necessary. Neither too shallow to be mysterious, nor too profoundly to be boring.
 Yes, definitely it's number one in my list.
 
 **Test-Driven Development with Python. Obey the Testing Goat: Using Django, Selenium, and JavaScript by Harry J.W. Percival** You, probably have seen a lot of blogs and articles where
@@ -50,7 +50,7 @@ self.assertEqual(2, a)
 </pre>
 
 is not failing. Hell yes, it's awesome. Apart the fact it's useless and explains nothing just because
-it's disconnected from any real problem you face daily doing your job. The book by Harry J.W. Percival is very far from this misarable "unit-test library reviews". The book explains
+it's disconnected from any real problem you face daily doing your job. The book by Harry J.W. Percival is very far from these miserable "unit-test library reviews". The book explains
 how to deal with real problems you get during testing. But you will also know about
 the test-driven design approach which might change your way for building apps tremendously.
 
