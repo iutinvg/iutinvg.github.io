@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Mastering Django, the Steps
+title: Mastering Python, the Steps
 ---
 
 Ok, you have faced Python at some point. You decided it might be awesome to
@@ -50,8 +50,8 @@ self.assertEqual(2, a)
 </pre>
 
 is not failing. Hell yes, it's awesome. Apart the fact it's useless and explains nothing just because
-it's disconnected from any real problem you face daily doing your job. The book by Harry J.W. Percival is very far from these miserable "unit-test library reviews". The book explains
-how to deal with real problems you get during testing. But you will also know about
+it's disconnected from any real problem you face daily doing your job. The book by Harry J.W. Percival is very far from these miserable "unit-test library reviews". He explains
+how to deal with real problems you get during testing. Besides you will also know about
 the test-driven design approach which might change your way for building apps tremendously.
 
 **to be continued**
