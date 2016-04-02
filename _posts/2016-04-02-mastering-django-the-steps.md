@@ -17,8 +17,8 @@ for me. And I hope it will for you to make a start your route.
 
 **The first step**, however, is not a book to read, but to start your own project.
 Of course if you are not a lucky guy who already has a commercial project where
-Python is used. So if you are not you have to create a project which would give
-practice on regular basic and which will be a source of **real** problems.
+Python is used. So if you are not you have to create a project which would give you
+practice on regular basis and which will be a source of **real** problems.
 I strongly believe just reading having no practice is wasting of time.
 
 **The second step** is to obtain basic knowledge about standard Python features and
