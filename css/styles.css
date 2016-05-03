@@ -157,6 +157,10 @@ strong {
     margin-top: 50px;
 }
 
+.blog a {
+    color: #96a341;
+}
+
 .article {
 /*    border: 1px solid black;
     padding: 15px;
@@ -172,6 +176,7 @@ strong {
     padding-top: 10px;
     text-decoration: underline;
     font-style: normal;
+    color: #333;
 }
 
 .services {
