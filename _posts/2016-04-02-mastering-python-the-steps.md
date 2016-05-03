@@ -66,7 +66,7 @@ A huge collection of extremely useful programming technics and approaches. The o
 My recommendation about this book is not to skip recipes. Often they sound very familiar and you think "oh, it's clear for me, next...". But look inside! I'm sure you'll find some neat and unexpected things.
 
 ## References:
-<a name="llist"></a>
+<a name="llists"></a>
 \[1\] The best materials are in [Python Documentation](https://docs.python.org/2/tutorial/datastructures.html#tut-listcomps). Also give special attentions to comprehensions for [Sets](https://docs.python.org/2/tutorial/datastructures.html#sets) and [Dictionaries](https://docs.python.org/2/tutorial/datastructures.html#dictionaries).
 
 <a name="ldecorators"></a>
