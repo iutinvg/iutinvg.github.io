@@ -50,7 +50,9 @@ if not skip:
 
 So if you find it important then consider a set of simple principles put into neat aphorisms: [The Zen of Python](https://www.python.org/dev/peps/pep-0020/). Ignore "of Python", it works for any language.
 
-So, saying about coding styles, we won't find it surprising that [Android Code Style](http://s.android.com/source/code-style.html) is quite detached from Java actually.
+Thus, saying about coding styles, we won't find it surprising that [Android Code Style](http://s.android.com/source/code-style.html) is quite detached from Java actually.
+
+Similarly, there is a set of [Git Best Practices](http://sethrobertson.github.io/GitBestPractices/).
 
 ---
 
