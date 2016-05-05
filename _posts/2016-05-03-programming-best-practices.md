@@ -77,5 +77,3 @@ Compiled languages such as C++ also have similar tools. They are called *static 
 Yes, it's not a typo: **Zero**. The top. The most important practice for a software developer is the reading of books. Of books. Not blog articles, which can be quite entertaining because authors are talented writers and nice persons on the whole. I'm not saying it's always bad, but too often it's wasting of your time.
 
 The reading of real books can be far less easy and smooth in comparison to glossy screens of the "yet-another-guy-who-found-a-cool-tool". Consider how "glamorous" [these books](https://en.wikipedia.org/wiki/The_Art_of_Computer_Programming) are. I promise you will struggle on every section.
-
-There is an opinion that the effort you spend reading books should be equal to your daily job efforts.
