@@ -5,7 +5,7 @@ body {
 }
 
 h2 {
-    font-size: 24px;
+    font-size: 26px;
 }
 
 a {
@@ -162,13 +162,18 @@ strong {
 }
 
 .article {
-/*    border: 1px solid black;
-    padding: 15px;
-*/}
+    font-size: 24px;
+    line-height: 40px;
+}
+
+.article p {
+    margin: 20px 0;
+}
 
 .toc p {
     margin-top: 40px;
     font-style: italic;
+    font-size: 22px;
 }
 
 .toc a {
