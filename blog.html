@@ -15,7 +15,10 @@ active: blog
   <div class="col-sm-8 col-sm-pull-4">
     <div class="article">
       <h2><a href="{{ post.url | prepend: site.baseurl }}"></a>{{ site.posts[0].title }}</h2>
-      <p>{{ site.posts[0].date | date: "%B %d, %Y" }}</p>
+      <p>
+        {{ site.posts[0].date | date: "%B %d, %Y" }}
+        {% include post-tags.html %}
+      </p>
 
       {{site.posts[0].content}}
 
