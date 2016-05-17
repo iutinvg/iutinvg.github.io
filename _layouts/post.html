@@ -16,10 +16,14 @@ active: blog
   <div class="col-sm-8 col-sm-pull-4">
     <div class="article">
       <h2><a href="{{ page.url | prepend: site.baseurl }}"></a>{{ page.title }}</h2>
-      <p>{{ page.date | date: "%B %d, %Y" }}</p>
+      <p>
+        {{ page.date | date: "%B %d, %Y" }}
+        {% include post-tags.html %}
+      </p>
 
       {{content}}
     </div>
+
 
     <div>
         <div id="disqus_thread"></div>

@@ -1,6 +1,8 @@
 ---
 layout: post
 title: The Best Practices of Programming
+tags: [books, programming]
+active: blog
 ---
 
 There is a collection of practices which are useful during daily programmer job. For me, the main reason why I could say they are useful is that they allow to save time. Especially when it comes to a necessity a process setup.

@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Mastering Python, the Steps
+tags: [python, books]
+active: blog
 ---
 
 Ok, you have faced Python at some point. You decided it might be awesome to

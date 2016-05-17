@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Redmine vs Trac
+tags: [trac, redmine]
+active: blog
 ---
 
 Yeah, yet another article regarding this silent battle and why I choose Trac.

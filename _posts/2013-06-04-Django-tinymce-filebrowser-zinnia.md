@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Django-tinymce, django-filebrowser, django-blog-zinnia
+tags: [django, zinnia, python]
+active: blog
 ---
 
 How to make django-tinymce to use django-filebrowser for django-blog-zinnia posts.
