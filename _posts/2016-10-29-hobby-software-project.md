@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Hobby Software Project
-tags: [books, programming]
+tags: [programming, hobby]
 active: blog
 ---
 
